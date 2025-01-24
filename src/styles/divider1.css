@@ -1,0 +1,48 @@
+.divider1-section {
+  padding: 0 32px;
+}
+
+.divider1-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  width: 100%;
+}
+
+.divider1-container img {
+  opacity: 0.3;
+  width: 100%;
+  max-width: 140px;
+}
+
+@media (max-width: 1024px) {
+  .divider1-container img {
+    width: 100%;
+    max-width: 105px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divider1-section {
+    padding: 0 5px;
+  }
+
+  .divider1-container {
+    gap: 5px;
+  }
+
+  .divider1-container img {
+    width: 100%;
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .divider1-section {
+    padding: 0 10px;
+  }
+  .divider1-container img {
+    width: 100%;
+    max-width: 48px;
+  }
+}

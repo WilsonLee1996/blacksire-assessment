@@ -1,0 +1,156 @@
+.footer-logo {
+  padding: 80px 70px 30px 70px;
+}
+
+.footer-logo img {
+  padding: 0 32px;
+  max-width: 150px;
+}
+
+.footer-row {
+  display: flex;
+  padding: 30px 70px 80px 70px;
+}
+
+.footer-col {
+  width: 50%;
+  padding: 0 32px;
+}
+
+.footer-col > p {
+  background: linear-gradient(
+    90deg,
+    rgb(17, 204, 168) 0%,
+    rgb(74, 197, 223) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 0.875rem;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.footer-col ul {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 13px;
+  column-gap: 13px;
+
+  max-height: 120px;
+}
+
+.footer-col ul li {
+  color: var(--primary-font-color);
+  font-size: 1.125rem;
+}
+
+.footer-container hr {
+  border-color: rgba(74, 197, 223, 0.3);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 70px;
+}
+
+.social-col {
+  display: flex;
+  gap: 15px;
+  padding: 0 32px;
+  color: var(--primary-font-color);
+  font-size: 0.75rem;
+}
+
+/* Small desktop/laptop */
+@media (max-width: 1024px) {
+  .footer-col > p {
+    font-size: 0.72rem;
+  }
+
+  .footer-col ul li {
+    font-size: 0.9rem;
+  }
+
+  .social-links .col {
+    font-size: 0.7rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .footer-col > p {
+    font-size: 0.65rem;
+  }
+
+  .footer-col ul li {
+    font-size: 0.85rem;
+  }
+
+  .social-col {
+    font-size: 0.64rem;
+  }
+
+  .footer-col ul {
+    flex-wrap: nowrap;
+    max-height: 220px;
+  }
+
+  .footer-logo {
+    padding: 60px 70px 20px 70px;
+  }
+
+  .footer-row {
+    padding: 20px 70px 60px 70px;
+  }
+
+  .footer-logo img {
+    width: 100%;
+    max-width: 129px;
+  }
+
+  .social-links .col img {
+    width: 21px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .footer-col > p {
+    font-size: 0.6rem;
+  }
+
+  .footer-col ul li {
+    font-size: 0.75rem;
+  }
+
+  .social-col {
+    font-size: 0.61rem;
+  }
+
+  .footer-logo {
+    padding: 60px 15px 20px 15px;
+  }
+
+  .footer-row {
+    padding: 20px 15px 60px 15px;
+  }
+
+  .footer-logo img {
+    width: 100%;
+    max-width: 110px;
+  }
+
+  .social-links {
+    padding: 17px 15px;
+  }
+
+  .social-links .col img {
+    width: 17px;
+  }
+}

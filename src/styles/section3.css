@@ -1,0 +1,155 @@
+.presentation-section {
+  padding: 0 32px;
+  display: flex;
+  gap: 30px;
+}
+
+.presentation-container {
+  align-self: center;
+  padding: 0 16px;
+}
+
+.presentation-title {
+  color: var(--primary-font-color);
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 86.4px;
+}
+
+.presentation-description {
+  color: var(--primary-font-color);
+  font-size: 1.125rem;
+  line-height: 31.5px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.presentation-button {
+  background: linear-gradient(90deg, #11cca8, #4ac5df);
+  border-radius: 30px;
+  padding: 1px;
+  cursor: pointer;
+  border: none;
+}
+
+.presentation-button > span {
+  display: block;
+  background: linear-gradient(
+      90deg,
+      rgba(17, 204, 168, 0.05) 0%,
+      rgba(74, 197, 223, 0.05) 100%
+    ),
+    #0e1a1f;
+  border-radius: 29px;
+  font-size: 1.125rem;
+  line-height: 20px;
+  color: #fff;
+  padding: 18px 40px;
+}
+
+.presentation-image-content {
+  width: 100%;
+  max-width: 500px;
+  padding: 0 16px 8px 16px;
+  margin: auto;
+}
+
+.presentation-image-content > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1140px) and (max-width: 1299px) {
+  .presentation-title {
+    font-size: 3.9rem;
+    line-height: 75px;
+  }
+
+  .presentation-description {
+    font-size: 0.88rem;
+    line-height: 25px;
+  }
+
+  .presentation-button > span {
+    font-size: 0.88rem;
+    line-height: 15px;
+    padding: 14px 30px;
+  }
+}
+
+@media (min-width: 940px) and (max-width: 1139px) {
+  .presentation-title {
+    font-size: 3.2rem;
+    line-height: 66px;
+  }
+
+  .presentation-description {
+    font-size: 0.85rem;
+    line-height: 23px;
+  }
+
+  .presentation-button > span {
+    font-size: 0.85rem;
+    line-height: 15px;
+    padding: 12px 27px;
+  }
+}
+
+@media (max-width: 939px) {
+  .presentation-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .presentation-title {
+    font-size: 4rem;
+    line-height: 76.4px;
+  }
+
+  .presentation-description {
+    font-size: 0.9rem;
+    line-height: 25px;
+  }
+
+  .presentation-button > span {
+    font-size: 0.9rem;
+    line-height: 15px;
+    padding: 14px 30px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .presentation-title {
+    font-size: 3.5rem;
+  }
+
+  .presentation-description {
+    font-size: 0.85rem;
+  }
+
+  .presentation-button > span {
+    font-size: 0.85rem;
+    line-height: 13px;
+    padding: 14px 27px;
+  }
+  .presentation-image-content {
+    padding: 0;
+  }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+  .presentation-title {
+    font-size: 3rem;
+  }
+
+  .presentation-description {
+    font-size: 0.75rem;
+  }
+
+  .presentation-button > span {
+    font-size: 0.75rem;
+    line-height: 13px;
+    padding: 14px 27px;
+  }
+}

@@ -1,0 +1,62 @@
+/* Global Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter;
+  color: var(--font-color);
+  background-color: var(--primary-bg-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--font-color); /* Dark color for headings */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Links */
+a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --primary-bg-color: #0e1a1f;
+  --secondary-bg-color: linear-gradient(
+    90deg,
+    rgba(17, 204, 168, 0.05) 0%,
+    rgba(74, 197, 223, 0.05) 100%
+  );
+  --primary-font-color: #fff;
+  --secondary-font-color: linear-gradient(
+    90deg,
+    rgba(17, 204, 168, 1) 0%,
+    rgba(74, 197, 223, 1) 100%
+  );
+  --primary-border-color: #4ac5df;
+}

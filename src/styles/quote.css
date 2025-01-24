@@ -1,0 +1,86 @@
+.quote-section {
+  padding: 0 32px;
+}
+
+.quote-section > div {
+  padding: 0 152px;
+  text-align: center;
+}
+
+.quote-section img {
+  opacity: 0.3;
+}
+
+.quote {
+  color: var(--primary-font-color);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 41.6px;
+  margin: 50px 0;
+}
+
+.quote-name {
+  color: #4ac5df;
+  font-size: 1.125rem;
+  line-height: 31.5px;
+}
+
+/* Small desktop/laptop */
+@media (max-width: 1024px) {
+  .quote-section > div {
+    padding: 0 95px;
+  }
+
+  .quote-section img {
+    max-width: 130px;
+  }
+
+  .quote {
+    font-size: 1.7rem;
+    margin: 35px 0;
+  }
+
+  .quote-name {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .quote-section > div {
+    padding: 0 50px;
+  }
+
+  .quote-section img {
+    max-width: 115px;
+  }
+
+  .quote {
+    font-size: 1.3rem;
+    margin: 30px 0;
+  }
+
+  .quote-name {
+    font-size: 0.85rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 480px) {
+  .quote-section > div {
+    padding: 0 20px;
+  }
+
+  .quote-section img {
+    max-width: 96px;
+  }
+
+  .quote {
+    font-size: 1.15rem;
+    margin: 15px 0;
+  }
+
+  .quote-name {
+    font-size: 0.75rem;
+  }
+}
