@@ -2,9 +2,9 @@ import "../styles/faq.css";
 import React from "react";
 
 export default function FAQ() {
-  const [isActiveIndex, setIsActiveIndex] = React.useState(null);
+  const [isActiveIndex, setIsActiveIndex] = React.useState<number | null>(null);
 
-  function toggleMenu(index) {
+  function toggleMenu(index: number) {
     setIsActiveIndex(index === isActiveIndex ? null : index);
   }
 

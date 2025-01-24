@@ -1,13 +1,17 @@
 import "../styles/newsletter.css";
-import React from "react";
+// import React from "react";
+import { useActionState } from "react";
 
 export default function Newsletter() {
-  const [email, setEmail] = React.useState("");
 
-  function addEmail(formData) {
-    const newEmail = formData.get("email");
-    setEmail(newEmail);
+  function signup(prevState: FormData, formData: FormData) {
+    const email = formData.get("email");
+    console.log(`Added: "${email}"`);
   }
+
+  const [message, signupAction] = useActionState(signup, null);
+
+  console.log(message);
 
   return (
     <main>
@@ -23,16 +27,14 @@ export default function Newsletter() {
           </div>
 
           <div className="newsletter-email-content">
-            <form action={addEmail} className="newsletter-email-form">
+            <form action={signupAction} className="newsletter-email-form">
               <input
                 type="text"
                 placeholder="Email address"
                 aria-label="Add email"
                 name="email"
               />
-              <button>
-                Sign up
-              </button>
+              <button>Sign up</button>
             </form>
           </div>
         </div>
