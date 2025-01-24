@@ -20,7 +20,7 @@ export default function Navigation() {
     <main className="navigation-main">
       <section className="navigation-section">
         <div className="navigation-container">
-          <img src="./public/icons/captivateLogo.svg" alt="captivate logo" />
+          <img src={"/icons/captivateLogo.svg"} alt="captivate logo" />
 
           <div className={`navigation-list ${isOpen ? "active" : ""}`}>
             <a href="#">Features</a>
