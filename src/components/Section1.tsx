@@ -12,15 +12,15 @@ export default function Section1() {
           </p>
           <ul className="section1-lists">
             <li>
-              <img src="../src/assets/checkmark.svg" alt="checkmark" />
+              <img src="./public/icons/checkmark.svg" alt="checkmark" />
               Lorem ipsum dolor sit amet
             </li>
             <li>
-              <img src="../src/assets/checkmark.svg" alt="checkmark" />
+              <img src="./public/icons/checkmark.svg" alt="checkmark" />
               Lorem ipsum dolor
             </li>
             <li>
-              <img src="../src/assets/checkmark.svg" alt="checkmark" />
+              <img src="./public/icons/checkmark.svg" alt="checkmark" />
               Lorem ipsum dolor sit
             </li>
           </ul>
@@ -29,7 +29,7 @@ export default function Section1() {
         <div className="section1-image-content">
           <img
             className="section1-image"
-            src="../src/assets/images/womanInCafe.png"
+            src="./public/images/womanInCafe.png"
             alt="the perfect presentation"
           />
         </div>

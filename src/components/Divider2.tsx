@@ -5,60 +5,60 @@ export default function Divider2() {
     <div className="divider2-section">
       <ul>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconMagnet.svg" alt="pitch decks" />
+          <img src="./public/icons/iconMagnet.svg" alt="pitch decks" />
           <p>Pitch Decks</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconBank.svg" alt="financial reports" />
+          <img src="./public/icons/iconBank.svg" alt="financial reports" />
           <p>Financial Reports</p>
         </li>
         <li className="divider2-icon-container">
           <img
-            src="../src/assets/iconPresentation.svg"
+            src="./public/icons/iconPresentation.svg"
             alt="presentation decks"
           />
           <p>Presentation Decks</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconLightningBolt.svg" alt="earning" />
+          <img src="./public/icons/iconLightningBolt.svg" alt="earning" />
           <p>Earnings</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconWebinar.svg" alt="webinars" />
+          <img src="./public/icons/iconWebinar.svg" alt="webinars" />
           <p>Webinars</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconBriefCase.svg" alt="staff training" />
+          <img src="./public/icons/iconBriefCase.svg" alt="staff training" />
           <p>Staff Training</p>
         </li>
       </ul>
 
       <ul aria-hidden="true">
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconMagnet.svg" alt="pitch decks" />
+          <img src="./public/icons/iconMagnet.svg" alt="pitch decks" />
           <p>Pitch Decks</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconBank.svg" alt="financial reports" />
+          <img src="./public/icons/iconBank.svg" alt="financial reports" />
           <p>Financial Reports</p>
         </li>
         <li className="divider2-icon-container">
           <img
-            src="../src/assets/iconPresentation.svg"
+            src="./public/icons/iconPresentation.svg"
             alt="presentation decks"
           />
           <p>Presentation Decks</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconLightningBolt.svg" alt="earning" />
+          <img src="./public/icons/iconLightningBolt.svg" alt="earning" />
           <p>Earnings</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconWebinar.svg" alt="webinars" />
+          <img src="./public/icons/iconWebinar.svg" alt="webinars" />
           <p>Webinars</p>
         </li>
         <li className="divider2-icon-container">
-          <img src="../src/assets/iconBriefCase.svg" alt="staff training" />
+          <img src="./public/icons/iconBriefCase.svg" alt="staff training" />
           <p>Staff Training</p>
         </li>
       </ul>

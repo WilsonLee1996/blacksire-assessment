@@ -16,7 +16,7 @@ export default function Features() {
           <div className="features-card">
             <div className="features-card-allinone">
               <img
-                src="../src/assets/images/interfaceAllInOne.png"
+                src="./public/images/interfaceAllInOne.png"
                 alt="Interface all in one"
               />
               <div className="features-card-title-container">
@@ -41,7 +41,7 @@ export default function Features() {
               </div>
 
               <img
-                src="../src/assets/images/interfaceBranding.png"
+                src="./public/images/interfaceBranding.png"
                 alt="Interface branding"
               />
             </div>
@@ -64,7 +64,7 @@ export default function Features() {
 
             <div className="features-image-content">
               <img
-                src="../src/assets/images/interfaceGrid.png"
+                src="./public/images/interfaceGrid.png"
                 alt="Interface all in one"
               />
             </div>
@@ -73,7 +73,7 @@ export default function Features() {
           <div className="features-card">
             <div className="features-card-livestream">
               <img
-                src="../src/assets/images/interfaceLivestream.png"
+                src="./public/images/interfaceLivestream.png"
                 alt="Interface all in one"
               />
               <div className="features-card-title-container">
@@ -99,7 +99,7 @@ export default function Features() {
               </div>
 
               <img
-                src="../src/assets/images/interfaceAnalytics.png"
+                src="./public/images/interfaceAnalytics.png"
                 alt="Interface branding"
               />
             </div>

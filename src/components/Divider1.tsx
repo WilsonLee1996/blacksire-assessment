@@ -5,14 +5,14 @@ export default function Divider1() {
     <main>
       <section className="divider1-section">
         <div className="divider1-container">
-          <img src="../src/assets/logoAperture.svg" alt="aperture logo" />
-          <img src="../src/assets/logoNorthStar.svg" alt="north star logo" />
-          <img src="../src/assets/logoTriad.svg" alt="triad logo" />
+          <img src="./public/icons/logoAperture.svg" alt="aperture logo" />
+          <img src="../public/icons/logoNorthStar.svg" alt="north star logo" />
+          <img src="../public/icons/logoTriad.svg" alt="triad logo" />
           <img
-            src="../src/assets/logoTransferMedia.svg"
+            src="../public/icons/logoTransferMedia.svg"
             alt="transfer media logo"
           />
-          <img src="../src/assets/logoCubic.svg" alt="cubic logo" />
+          <img src="../public/icons/logoCubic.svg" alt="cubic logo" />
         </div>
       </section>
     </main>

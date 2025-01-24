@@ -48,7 +48,7 @@ export default function FAQ() {
 
         <button onClick={() => toggleMenu(index)}>
           <img
-            src="../src/assets/plusIcon.svg"
+            src="./public/icons/plusIcon.svg"
             alt="active"
             className={`toggle-button ${
               isActiveIndex === index ? "active" : ""
