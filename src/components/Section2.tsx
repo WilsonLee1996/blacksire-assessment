@@ -7,7 +7,7 @@ export default function Section2() {
         <div className="section2-image-content">
           <img
             className="section2-image"
-            src="./public/images/coworkingSpace.png"
+            src={"/images/coworkingSpace.png"}
             alt="the perfect presentation"
           />
         </div>
@@ -19,15 +19,15 @@ export default function Section2() {
           </p>
           <ul className="section2-lists">
             <li>
-              <img src="./public/icons/checkmark.svg" alt="checkmark" />
+              <img src={"/icons/checkmark.svg"} alt="checkmark" />
               Lorem ipsum dolor sit amet
             </li>
             <li>
-              <img src="./public/icons/checkmark.svg" alt="checkmark" />
+              <img src={"/icons/checkmark.svg"} alt="checkmark" />
               Lorem ipsum dolor
             </li>
             <li>
-              <img src="./public/icons/checkmark.svg" alt="checkmark" />
+              <img src={"/icons/checkmark.svg"} alt="checkmark" />
               Lorem ipsum dolor sit
             </li>
           </ul>

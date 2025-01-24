@@ -5,7 +5,7 @@ export default function Quote() {
     <main>
       <section className="quote-section">
         <div>
-          <img src="./public/icons/logoAperture.svg" alt="Aperture Mini Logo" />
+          <img src={"/icons/logoAperture.svg"} alt="Aperture Mini Logo" />
           <p className="quote">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
             mauris, libero tellus nec tortor libero arcu, sapien. Venenatis sit

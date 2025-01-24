@@ -30,19 +30,19 @@ export default function Pricing() {
               <p className="pricing-included-title">WHAT's Included</p>
               <ul className="pricing-included-lists">
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit amet consectetur
                 </li>
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit amet
                 </li>
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit amet consectetur
                 </li>
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit
                 </li>
               </ul>
@@ -70,19 +70,19 @@ export default function Pricing() {
               <p className="pricing-included-title">WHAT's Included</p>
               <ul className="pricing-included-lists">
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit amet consectetur
                 </li>
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit amet
                 </li>
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit amet consectetur
                 </li>
                 <li>
-                  <img src="./public/icons/checkmark.svg" alt="checkmark" />
+                  <img src={"/icons/checkmark.svg"} alt="checkmark" />
                   Lorem ipsum dolor sit
                 </li>
               </ul>

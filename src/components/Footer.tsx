@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
       <div className="footer-container">
         <div className="footer-logo">
-          <img src="./public/icons/captivateLogo.svg" alt="captivate" />
+          <img src={"/icons/captivateLogo.svg"} alt="captivate" />
         </div>
 
         <div className="footer-row">
@@ -57,19 +57,19 @@ export default function Footer() {
         <div className="social-links">
           <div className="social-col">
             <a href="#">
-              <img src="./public/icons/socialIconFacebook.svg" alt="facebook" />
+              <img src={"/icons/socialIconFacebook.svg"} alt="facebook" />
             </a>
             <a href="#">
-              <img src="./public/icons/socialIconTwitter.svg" alt="twitter" />
+              <img src={"/icons/socialIconTwitter.svg"} alt="twitter" />
             </a>
             <a href="#">
               <img
-                src="./public/icons/socialIconInstagram.png"
+                src={"/icons/socialIconInstagram.png"}
                 alt="instagram"
               />
             </a>
             <a href="#">
-              <img src="./public/icons/socialIconLinkedIn.svg" alt="linkedin" />
+              <img src={"/icons/socialIconLinkedIn.svg"} alt="linkedin" />
             </a>
           </div>
           <div className="social-col">

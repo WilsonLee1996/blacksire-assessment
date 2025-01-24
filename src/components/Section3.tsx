@@ -18,7 +18,7 @@ export default function Section3() {
 
         <div className="presentation-image-content">
           <img
-            src="./public/images/interfaceHalf.png"
+            src={"/images/interfaceHalf.png"}
             alt="Interface half"
           />
         </div>
